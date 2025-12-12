@@ -10,9 +10,9 @@ class CustomHeader extends HTMLElement {
                 }
                 
                 .logo {
-                    background: linear-gradient(90deg, #5e6bff 0%, #8195ff 100%);
+                    background: linear-gradient(90deg, #ff5e5e 0%, #ff8181 100%);
                     -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
+-webkit-text-fill-color: transparent;
                     background-clip: text;
                     text-fill-color: transparent;
                 }
@@ -33,8 +33,8 @@ class CustomHeader extends HTMLElement {
                     left: 0;
                     width: 0;
                     height: 2px;
-                    background: linear-gradient(90deg, #5e6bff 0%, #8195ff 100%);
-                    transition: width 0.3s ease;
+                    background: linear-gradient(90deg, #ff5e5e 0%, #ff8181 100%);
+transition: width 0.3s ease;
                 }
                 
                 nav a:hover::after {
